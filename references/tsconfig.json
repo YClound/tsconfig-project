@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "strict": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "composite": true,
+    "declaration": true,
+    // "moduleResolution": "node",
+    "outDir": "../dist/references"
+    // "outFile": "../dist/references/index.js"
+  },
+  "files": [
+    "./index.ts",
+    "./utils.ts"
+  ],
+}
